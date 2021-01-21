@@ -1,0 +1,20 @@
+{
+    "base_url": "/ricettario/api",
+    "port":3002,
+    "workers_default":2,
+    "workers_from_cores": false,
+    "token": "f6c3d153-fb29-4582-b741-634fb790edc2",
+    "ignorable_headers": [
+        "user-agent",
+        "accept",
+        "postman-token",
+        "host",
+        "accept-encoding",
+        "connection",
+        "content-length"
+    ],
+    "req_attr": {
+        "token": "token",
+        "recipe_id": "rid"
+    }
+}

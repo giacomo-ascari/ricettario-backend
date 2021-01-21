@@ -1,3 +1,7 @@
+js
+test.db
+log.txt
+recipes-backup.txt
 # Logs
 logs
 *.log

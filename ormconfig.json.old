@@ -1,0 +1,24 @@
+{
+    "type": "mysql",
+    "host": "192.168.0.111",
+    "port": 3306,
+    "username": "remote",
+    "password": "remote",
+    "database": "litchi_1_0_0",
+    "synchronize": true,
+    "entities": [
+      "js/entity/*.js"
+    ],
+    "subscribers": [
+      "js/subscriber/*.js"
+    ],
+    "migrations": [
+      "js/migration/*.js"
+    ],
+    "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    },
+    "timezone": "UTC"
+  }
